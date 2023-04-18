@@ -36,7 +36,7 @@ jobs:
 
     - name: Run Yarn 
 
-      run: npm intsall
+      run: npm install
 
     - name: Run tests
 
