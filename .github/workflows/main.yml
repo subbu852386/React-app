@@ -32,12 +32,12 @@ jobs:
 
       with:
 
-        node-version: '18.x'
+        node-version: '16.x'
 
     - name: Run Yarn 
 
-      run: yarn
+      run: npm intsall
 
     - name: Run tests
 
-      run: yarn test
+      run: npm run-script build
